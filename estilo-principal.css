@@ -81,7 +81,7 @@ body {
 .botones-navegacion {
   display: flex;
   list-style: none; /* Quita los puntitos de la lista */
-  gap: 15px; ;
+  gap: 15px;
 }
 
 .botones-navegacion a {
@@ -100,36 +100,4 @@ body {
   color: white;
   padding: 30px;
   text-align: center;
-}
-
-/*CSS SECCION GAMEPLAY EILEEN */
-
-.subtitulo-seccion {
-  margin-bottom: 30px;
-  font-size: 20px;
-  display: flex;
-  flex-direction: row; /* Fuerza a que las letras de colores estén una al lado de otra */
-  gap: 10px;
-  justify-content: center;
-
-}
-.contenedor-video {
-  margin: 40px 0;
-}
-.titulo-gameplay {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  flex-direction: row; /* Fuerza a que las letras de colores estén una al lado de otra */
-  gap: 10px;
-  font-size: 60px; 
-}
-.contenedor-consolas {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-} 
-.contenedor-consolas img {
-  max-width: 100%;
-  height: auto;
 }
