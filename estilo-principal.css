@@ -41,7 +41,6 @@ body {
 /* LA PORTADA NEGRA */
 .portada {
   background-color: #000;
-  color: white;
   height: 400px;
   display: flex;
   flex-direction: column; /* Pone el título arriba y el párrafo abajo */
