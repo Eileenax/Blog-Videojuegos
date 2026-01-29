@@ -62,3 +62,72 @@
   transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
   box-shadow: 0 4px 8px #a855f7; /* Añade una sombra */
 }
+/* TIPS PARA JUGAR COMO PRO */
+/* Contenedor general de la parte de tips */
+.contenedor-maestria {
+  margin-top: 70px;
+  padding: 30px;
+  text-align: center;
+}
+
+.contenedor-maestria h3 {
+  font-size: 18px;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px #000;
+}
+/* panel tips */
+.panel-tactico {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+/* Estilo de los tips */
+.tarjeta-fina {
+  background: linear-gradient(145deg, #1a1a1a, #0a0a0a);
+  border-top: 4px solid #fff;
+  padding: 25px;
+  width: 240px;
+  min-height: 170px;
+  text-align: left;
+  position: relative;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.tarjeta-fina:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+  border-top-width: 8px;
+}
+
+.tarjeta-fina h4 {
+  font-size: 11px;
+  margin-bottom: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.tarjeta-fina p {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #b3b3b3;
+}
+
+/* colores tarjeta */
+.tarjeta-fina.cian {
+  border-color: #00f3ff;
+}
+.tarjeta-fina.purpura {
+  border-color: #a855f7;
+}
+.tarjeta-fina.verde {
+  border-color: #22c55e;
+}
+.tarjeta-fina.naranja {
+  border-color: #f97316;
+}
+.tarjeta-fina.rojo {
+  border-color: #ef4444;
+}
