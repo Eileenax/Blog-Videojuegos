@@ -1,0 +1,133 @@
+#seccion-gameplay {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 10%;
+  color: white;
+}
+
+.subtitulo-seccion {
+  margin-bottom: 30px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row; /* Fuerza a que las letras de colores estén una al lado de otra */
+  gap: 10px;
+  justify-content: center;
+}
+.subtitulo-consolas {
+  margin-bottom: 30px;
+  font-size: 45px;
+  display: flex;
+  flex-direction: row; /* Fuerza a que las letras de colores estén una al lado de otra */
+  gap: 15px;
+  justify-content: center;
+}
+.contenedor-video {
+  margin: 40px 0;
+}
+.titulo-gameplay {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-direction: row; /* Fuerza a que las letras de colores estén una al lado de otra */
+  gap: 15px;
+  font-size: 60px;
+}
+.contenedor-consolas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.contenedor-consolas img {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.tarjeta-consola {
+  background-color: #2d2d2e;
+  border: 2px solid #a855f7;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: auto;
+  text-align: center;
+  transition: all 0.3s ease; /* transición suave para el efecto hover */
+  cursor: pointer;
+}
+.tarjeta-consola:hover {
+  transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
+  box-shadow: 0 4px 8px #a855f7; /* Añade una sombra */
+}
+/* TIPS PARA JUGAR COMO PRO */
+/* Contenedor general de la parte de tips */
+.contenedor-maestria {
+  margin-top: 70px;
+  padding: 30px;
+  text-align: center;
+}
+
+.contenedor-maestria h3 {
+  font-size: 18px;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px #000;
+}
+/* panel tips */
+.panel-tactico {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+/* Estilo de los tips */
+.tarjeta-fina {
+  background: linear-gradient(145deg, #1a1a1a, #0a0a0a);
+  border-top: 4px solid #fff;
+  padding: 25px;
+  width: 240px;
+  min-height: 170px;
+  text-align: left;
+  position: relative;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.tarjeta-fina:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+  border-top-width: 8px;
+}
+
+.tarjeta-fina h4 {
+  font-size: 11px;
+  margin-bottom: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.tarjeta-fina p {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #b3b3b3;
+}
+
+/* colores tarjeta */
+.tarjeta-fina.cian {
+  border-color: #00f3ff;
+}
+.tarjeta-fina.purpura {
+  border-color: #a855f7;
+}
+.tarjeta-fina.verde {
+  border-color: #22c55e;
+}
+.tarjeta-fina.naranja {
+  border-color: #f97316;
+}
+.tarjeta-fina.rojo {
+  border-color: #ef4444;
+}

@@ -41,7 +41,6 @@ body {
 /* LA PORTADA NEGRA */
 .portada {
   background-color: #000;
-  color: white;
   height: 400px;
   display: flex;
   flex-direction: column; /* Pone el título arriba y el párrafo abajo */
@@ -81,7 +80,7 @@ body {
 .botones-navegacion {
   display: flex;
   list-style: none; /* Quita los puntitos de la lista */
-  gap: 15px; ;
+  gap: 15px;
 }
 
 .botones-navegacion a {
@@ -102,17 +101,33 @@ body {
   text-align: center;
 }
 
-/*CSS SECCION GAMEPLAY EILEEN */
-
-.subtitulo-seccion {
-  margin-bottom: 30px;
-  font-size: 20px;
+/*BOTON PARA SUBIR AL INICIO DE LA PAGINA*/
+.boton-subir {
+  position: fixed;
+  bottom: 20px; /* Distancia desde abajo */
+  right: 20px; /* Distancia desde la derecha */
+  width: 50px;
+  height: 50px;
+  background-color: #a855f7; /* morado neón */
+  color: white;
+  text-decoration: none;
+  border-radius: 50%; /* Lo hace circular */
   display: flex;
-  flex-direction: row; /* Fuerza a que las letras de colores estén una al lado de otra */
-  gap: 10px;
+  align-items: center;
   justify-content: center;
-
+  font-size: 20px;
+  box-shadow: 0px 0px 15px rgba(168, 85, 247, 0.5);
+  transition: 0.3s;
+  z-index: 9999; /* Para que siempre esté por encima de todo */
 }
-.contenedor-video {
-  margin: 40px 0;
+
+.boton-subir:hover {
+  transform: scale(1.1);
+  background-color: #00f3ff; /* Cambia a cyan al pasar el mouse */
+  box-shadow: 0px 0px 20px rgba(0, 243, 255, 0.6);
+}
+
+/* para que el salto no sea brusco */
+html {
+  scroll-behavior: smooth;
 }

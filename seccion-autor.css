@@ -65,8 +65,7 @@
     width: 100%; 
     border: 3px solid #000;
 }
-
-/* Controles: colocar la cruz y los botones circulares en una fila con espacio entre ellos */
+/* ESTA PARTE ES SOLO PARA AGREGAR ESPACIO ENTRE LOS BOTONES*/
 .controles{
     display: flex;
     align-items: center;
