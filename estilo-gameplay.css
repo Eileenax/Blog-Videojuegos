@@ -150,6 +150,7 @@
     box-sizing: border-box !important;
     display: flex !important;
     justify-content: center !important;
+    margin: 20px 0 !important;
   }
 
   .contenedor-video iframe {
@@ -198,4 +199,12 @@
     padding: 0 10px !important;
     margin-bottom: 20px !important;
   }
+
+  .subtitulo-seccion {
+    font-size: 16px !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+    justify-content: center !important;
+  }
 }
+
