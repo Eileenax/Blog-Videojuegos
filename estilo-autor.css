@@ -1,0 +1,126 @@
+#seccion-autor {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("multimedia/fondo-noche.jpg.jpeg") center/cover no-repeat fixed;
+  background-color: #000;
+  display: block;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 50px;
+  margin-bottom: 2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* la caja que contiene todo el poster */
+.contenedor-autor {
+  text-align: center;
+  position: relative;
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+/* Estilo para los textos */
+.texto-titulo h2 {
+  font-size: 40px;
+  margin: -10px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: aliceblue;
+}
+
+.texto-titulo p {
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.texto-autor p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+/* la consola  */
+.consola {
+  background-color: #58d68d;
+  width: 360px;
+  max-width: 90%;
+  height: 480px;
+  margin: 24px auto;
+  border-radius: 20px 20px 60px 20px;
+  padding: 28px;
+  border: 4px solid #2d3436;
+}
+
+/* la pantalla amarilla */
+.pantalla {
+  background-color: #f4d03f;
+  padding: 20px;
+  border-radius: 8px;
+  border: 4px solid #2d3436;
+}
+
+.pantalla img {
+  align-items: center;
+  width: 100%;
+  border: 3px solid #000;
+}
+/* ESTA PARTE ES SOLO PARA AGREGAR ESPACIO ENTRE LOS BOTONES*/
+.controles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 12px;
+  gap: 12px;
+}
+
+.botones-circulo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* botones circulares purpuras */
+.circulo {
+  width: 40px;
+  height: 40px;
+  background-color: #a29bfe;
+  border-radius: 50%;
+  border: 3px solid #2d3436;
+  display: inline-block;
+  margin: 6px;
+}
+
+/* el boton de cruz */
+.cruz {
+  width: 70px;
+  height: 70px;
+  background-color: #2d3436;
+  margin: 1.2rem;
+  /* truco para hacer forma de cruz fast fast fast */
+  clip-path: polygon(
+    35% 0%,
+    65% 0%,
+    65% 35%,
+    100% 35%,
+    100% 65%,
+    65% 65%,
+    65% 100%,
+    35% 100%,
+    35% 65%,
+    0% 65%,
+    0% 35%,
+    35% 35%
+  );
+}

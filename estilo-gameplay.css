@@ -13,6 +13,7 @@
   flex-direction: row; /* Fuerza a que las letras de colores estén una al lado de otra */
   gap: 10px;
   justify-content: center;
+  color: white;
 }
 .subtitulo-consolas {
   margin-bottom: 30px;
@@ -197,5 +198,9 @@
     width: 100% !important;
     padding: 0 10px !important;
     margin-bottom: 20px !important;
+  }
+  .subtitulo-seccion {
+    font-size: 16px !important;
+    padding: 0 10px !important;
   }
 }

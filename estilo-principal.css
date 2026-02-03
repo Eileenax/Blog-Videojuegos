@@ -8,6 +8,10 @@
 body {
   font-family: "Press Start 2P", cursive;
 }
+body,
+html {
+  background-color: #000 !important;
+}
 
 /* COLORES DE LAS LETRAS TETRIS */
 .rojo {
@@ -98,6 +102,30 @@ body {
   background: #222;
   color: white;
   padding: 30px;
+  text-align: center;
+}
+/* BANNER INTERMEDIO PRIMERA SECCION */
+.banner-intermedio {
+  background-color: #000;
+  text-align: center;
+  padding: 40px 0;
+  border-top: 2px solid #3b82f6; /* Línea azul neón */
+  border-bottom: 2px solid #3b82f6;
+}
+
+.parpadeo {
+  color: white;
+  font-size: 20px;
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  50% {
+    opacity: 0;
+  }
+}
+.banner-breve {
+  border: 3px solid #3b82f6;
   text-align: center;
 }
 
